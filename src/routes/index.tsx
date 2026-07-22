@@ -44,7 +44,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "AniBuddy — Find Your Pack" },
       {
         property: "og:description",
-        content: "Dhaka's pet lifestyle, social & community platform.",
+        content: "AniBuddy is Dhaka's pet lifestyle, social and community platform. Find walk friends, events, and services for your pet.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

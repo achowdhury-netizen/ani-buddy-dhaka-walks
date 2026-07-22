@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "AniBuddy — Find Your Pack" },
+      { name: "description", content: "AniBuddy is Dhaka's pet lifestyle, social and community platform. Find walk friends, events, and services for your pet." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "AniBuddy — Find Your Pack" },
+      { property: "og:description", content: "AniBuddy is Dhaka's pet lifestyle, social and community platform. Find walk friends, events, and services for your pet." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "AniBuddy — Find Your Pack" },
+      { name: "twitter:description", content: "AniBuddy is Dhaka's pet lifestyle, social and community platform. Find walk friends, events, and services for your pet." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6779d3fb-da1c-45a5-9128-0765f0638264/id-preview-8abcd06b--313c237c-35c7-4877-80f6-aa36626b610b.lovable.app-1784744084080.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6779d3fb-da1c-45a5-9128-0765f0638264/id-preview-8abcd06b--313c237c-35c7-4877-80f6-aa36626b610b.lovable.app-1784744084080.png" },
     ],
     links: [
       {
